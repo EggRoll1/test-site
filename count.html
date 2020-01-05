@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/flipdown/flipdown.css" />
+<script src="js/flipdown/flipdown.js"></script>
+<title>Page Title</title>
+</head>
+<body>
+<div id="flipdown" class="flipdown">
+var flipdown = new FlipDown(1582848000);
+flipdown.start();
+flipdown.ifEnded(() => {
+  console.log('Its my birthday dawgs');
+});
+var flipdown = new FlipDown(datetime, el, {
+    theme: 'light' // or dark
+});
+</div>
+
+</body>
+</html>
