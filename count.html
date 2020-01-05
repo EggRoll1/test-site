@@ -8,7 +8,7 @@
 <script src="flipdown.js"></script>
 </head>
 <body>
-<div id="flipdown" class="flipdown">
+<div id="flipdown" class="flipdown"></div>
 var flipdown = new FlipDown(1582848000);
 flipdown.start();
 flipdown.ifEnded(() => {
@@ -17,7 +17,5 @@ flipdown.ifEnded(() => {
 var flipdown = new FlipDown(datetime, el, {
     theme: 'dark' // or dark
 });
-</div>
-
 </body>
 </html>
