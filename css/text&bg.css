@@ -10,7 +10,7 @@
     border-image: url(test-site/test-border4.png) 44% round;
     background: rgba(118, 173, 228, 0.69);
   }
-#body {
+body {
     background: url(test-site/stardew1.png);
     backgrond-repeat: no-repeat;
     background-position: center;
