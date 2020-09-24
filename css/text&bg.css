@@ -7,11 +7,11 @@
     margin: 10px;
     font-family: "Trebuchet MS", "Arial", sans-serif;
     border: 13px solid transparent;
-    border-image: url(http://isprojects.me/test-site/test-border4.png) 44% round;
+    border-image: url(/test-site/test-border4.png) 44% round;
     background: rgba(118, 173, 228, 0.69);
   }
 #body {
-    background: url(http://isprojects.me/test-site/stardew1.png);
+    background: url(/test-site/stardew1.png);
     backgrond-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
