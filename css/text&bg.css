@@ -10,15 +10,10 @@
     border-image: url(test-border4.png) 44% round;
     background: rgba(118, 173, 228, 0.69);
   }
-body {
+#body {
     background: url(stardew1.png);
     backgrond-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
   }
-#particles-js{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.png);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-  }
+
