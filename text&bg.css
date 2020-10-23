@@ -1,0 +1,39 @@
+#test-border {
+    padding: 10px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    margin: 10px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+    font-family: "Bebas Neue";
+    border: 13px solid transparent;
+    border-image: url(test-border4.png) 44% round;
+    background: rgba(118, 173, 228, 0.69);
+  }
+body {
+    background: url(stardew1.png);
+    backgrond-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+#no-border {
+    padding: 10px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    margin: 10px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+    font-family: "Bebas Neue";
+}
+#gradient-text {
+  background: -webkit-linear-gradient(-90deg, #09009f, #006a9c 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+  font-family: "Bebas Neue";
+}
