@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/text&bg.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+#testANI img {
+
+
+    -webkit-animation: imagefadein 3s; <!-- Safari, Chrome and Opera > 12.1 -->
+       -moz-animation: imagefadein 3s; <!-- Firefox > 16 -->
+        -ms-animation: imagefadein 3s; <!-- Internet Explorer -->
+         -o-animation: imagefadein 3s; <!-- Opera  12.1 -->
+            animation: imagefadein 3s;
+}
+@keyframes imagefadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+<!-- Firefox < 16 -->
+@-moz-keyframes imagefadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+<!-- Safari, Chrome and Opera > 12.1 -->
+@-webkit-keyframes imagefadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+<!-- Internet Explorer -->
+@-ms-keyframes imagefadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+#phrase img {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#phrase img:hover {
+	
+}
+</style>
+<title>Air Buds</title>
+</head>
+<body>
+<br> <br> <br>
+<h1 id="test-border">Air Buds</h1>
+<br> <br> <br>
+<div id="phrase">
+<img src='phrasetest.png' onmouseover="this.src='phrasetestG.png';" onmouseout="this.src='phrasetest.png';" />
+</div>
+<div id="testANI">
+<div class="w3-container w3-center">
+  <img src="airbuds.png" style="width:20%; position: absolute; left:80%; bottom: 40%;">
+
+  <br> <br> <br>
+  <h1 id="gradient-text"style="font-size: 75px;">All-year comfort. With a Fit, that fits you.</h1>
+  <br> <br> <br>
+  <p id="no-border" style="font-size: 30px; position: absolute; left: 50%; ">Well defined audio plus battery to last forever allows our users to experience the highest quality audio possible.</p>
+  <p id="no-border" style="font-size: 30px; position: absolute; right: 50%;">Made to fit in any ear, The rubber tip allows soft and customizable fit while allowing you to hear the outside world.</p>
+  
+</div>
+
+
+</body>
+
+</html>
